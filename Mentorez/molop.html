@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mentorez</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="mx.css">
+</head>
+<body>
+    <div id="header">
+        <div class="col-3 no-padding logo">
+            <div><a href="/mainpage.html"><img id="logo_img" src="image.psd.png" alt=""></a></div>
+        </div>
+        <div>
+            <div>
+                <a href=""><span>Lớp học</span></a>
+                <div>
+                    <a href="/lop6">Lớp 6</a>
+                    <a href="/lop6">Lớp 7</a>
+                    <a href="/lop6">Lớp 8</a>
+                    <a href="/lop6">Lớp 9</a>
+                    <a href="/lop6">Lớp 10</a>
+                    <a href="/lop6">Lớp 11</a>
+                    <a href="/lop6">Lớp 12</a>
+                    <a href="/lop6">Lớp kỹ năng</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <a href="/mainpage.html" style="font-size: 16px; text-decoration: none;">Giới thiệu</a>
+            <a href="/class">Lớp học</a>
+            <a href="/hotro">Hỗ trợ</a>
+        </div>
+
+        <div id="btn_co">
+            <a href="/dangnhap.html" id="btn_si" style="font-size: 16px; text-decoration: none;">Đăng nhập</a>
+            <a href="/dangky.html" id="btn_su" style="font-size: 16px; text-decoration: none;">Đăng kí</a>
+        </div>
+    </div>
+
+    <div class="sign-in grid-middle-center">
+        <div class="sign-in-content" >
+            <h1 style="text-align: center; font-size: 32px; color: whitesmoke;" class="fullwidth" >Yêu cầu mở lớp</h1>
+            <form id="sign-in-form" action="">
+                <div class="combo">
+                    <label class="text" for="">Môn học</label>
+                    <select name="category" id="category" required>
+                        <option value="math">Toán</option>
+                        <option value="phy">Lý</option>
+                        <option value="chem">Hóa học</option>
+                        <option value="bio">Sinh học</option>
+                        <option value="litr">Ngữ Văn</option>
+                        <option value="eng">Anh</option>
+                        <option value="skl">Kỹ năng</option>
+                        
+                    </select>
+                
+                    <label class="text" for="">Lớp</label>
+                    <select name="category" id="category" required>
+                        <option value="6">Lớp 6</option>
+                        <option value="7">Lớp 7</option>
+                        <option value="8">Lớp 8</option>
+                        <option value="9">Lớp 9</option>
+                        <option value="10">Lớp 10</option>
+                        <option value="11">Lớp 11</option>
+                        <option value="12">Lớp 12</option>
+                        <option value="skill">Lớp kỹ năng</option>
+                        
+                    </select>
+                    <label class="text" for="">Học phí</label>
+                    <input class="fullwidth" placeholder="điền học phí 1 buổi" id="fee" type="numer" required>
+
+                    
+                    <label class="text" for="">Ngày dạy bắt đầu</label>
+                    <input class="fullwidth" placeholder="15/06/2020" id="date" type="date" required>
+
+                    <label class="text" for="">Buổi dạy yêu cầu</label>
+                    <input class="fullwidth" placeholder="Thứ 2, thứ 3,..." id="day" type="text" required>
+
+                    <label class="text" for="">Trình độ</label>
+                    <select name="category" id="category_lvl" required>
+                        <option value="basic">Cơ bản</option>
+                        <option value="advance">Nâng cao</option>
+                        
+                    </select>
+
+                    <label class="text" for="">Buổi dạy yêu cầu</label>
+                    <input class="fullwidth" placeholder="Nhập 1 số" id="quant" type="number" required>
+
+                    <label class="text" for="">Buổi dạy yêu cầu</label>
+                    <input class="fullwidth" placeholder="Địa chỉ" id="adr" type="text" required>
+
+                    <label class="text" for="">SĐT</label>
+                    <input class="fullwidth" placeholder="VD: 0941782860" id="number" type="number" required>
+
+                    <label class="text" for="">Email</label>
+                    <input class="fullwidth" placeholder="Your email" id="email" type="email" required>
+                    
+                    
+                    <p id="error-message" class="text fullwidth" style="color: red; font-size: 12px;"></p>
+                      
+                </div>
+                <a href="molop_verify.html"></a><button id="btn_signin" style="color: white; font-size: 16px;">Mở lớp</button> 
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="col-3 no-padding logo">
+            
+            <div id="name">
+                <a href="mainpage.html"><p style="font-size: 24px; color: #42A5A4;">Mentorez</p></a>
+            </div>
+
+        </div>
+        <div style="display:flex; flex-direction: row; color: #42A5A4; font-size: 16px;">
+            <div>
+                <a href="mainpage.html"><p style="margin-left: 750px">Giới thiệu</p></a>
+                <a href="mainpage.html"><p style="margin-left: 780px">Hỗ trợ</p></a>
+                <a href="caclop.html"><p style="margin-left: 780px">Lớp học</p></a>
+            </div>
+            
+            <div>
+                <p style="margin-left: 20px">Liên hệ</p>
+                
+                <a href=""><p style="margin-left: 50px">Facebook</p></a>
+                <a href=""> <p style="margin-left: 50px">Instagram</p></a>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
