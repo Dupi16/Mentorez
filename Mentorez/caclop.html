@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mentorez</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="mx.css">
+</head>
+<body>
+    <div id="header">
+        <div class="col-3 no-padding logo">
+            <div><a href="/mainpage.html"><img id="logo_img" src="image.psd.png" alt=""></a></div>
+        </div>
+        <div>
+            <div>
+                <a href=""><span>Lớp học</span></a>
+                <div>
+                    <a href="/lop6">Lớp 6</a>
+                    <a href="/lop6">Lớp 7</a>
+                    <a href="/lop6">Lớp 8</a>
+                    <a href="/lop6">Lớp 9</a>
+                    <a href="/lop6">Lớp 10</a>
+                    <a href="/lop6">Lớp 11</a>
+                    <a href="/lop6">Lớp 12</a>
+                    <a href="/lop6">Lớp kỹ năng</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <a href="/mainpage.html" style="font-size: 16px; text-decoration: none;">Giới thiệu</a>
+            <a href="/class">Lớp học</a>
+            <a href="/hotro">Hỗ trợ</a>
+        </div>
+
+        <div id="btn_co">
+            <a href="/dangnhap.html" id="btn_si" style="font-size: 16px; text-decoration: none;">Đăng nhập</a>
+            <a href="/dangky.html" id="btn_su" style="font-size: 16px; text-decoration: none;">Đăng kí</a>
+        </div>
+    </div>
+    <div>
+        <h1>CÁC LỚP</h1>
+        <div>
+            <select name="category" id="category" required>
+                <option value="6">Lớp 6</option>
+                <option value="7">Lớp 7</option>
+                <option value="6">Lớp 8</option>
+                <option value="7">Lớp 9</option>
+                <option value="6">Lớp 10</option>
+                <option value="7">Lớp 11</option>
+                <option value="6">Lớp 12</option>
+                
+            </select>
+
+            <select name="category_sub" id="category_sub" required>
+                <option value="6">Toán</option>
+                <option value="7">Vật lý</option>
+                <option value="6">Hóa học</option>
+                <option value="7">Sinh học</option>
+                <option value="6">Văn</option>
+                <option value="7">Anh</option>
+                <option value="6">Kỹ năng</option>
+                
+            </select>
+
+
+        </div>
+        <div class="product-item">
+            <div>
+                <div>
+                    <p>Môn học:</p>
+                    <p></p>
+                </div>
+                <div>
+                    <p>Giáo viên:</p>
+                    <p></p>
+                </div>
+                <div>
+                    <p>Địa điểm:</p>
+                    <p></p>
+                </div>
+                <div>
+                    <p>Học phí:</p>
+                    <p></p>
+                </div>
+                <div>
+                    <p>Buổi học:</p>
+                    <p></p>
+                </div>
+
+                <div>
+                    <p>Thời gian bắt đầu:</p>
+                    <p></p>
+                </div>
+
+                <div>
+                    <p>Trạng thái chỗ:</p>
+                    <p></p>
+                </div>
+
+            </div>
+            <a href="chitiet.html"> <button>Chi tiết</button> </a>
+        </div>
+        <div class="grid-right" style="margin-right:10px">
+            <a class="page-button" href="/home?page={opts.pageNo - 1}"><button
+                    class="btn">pre</button></a>
+            <p style="color: #42A5A4;"> {opts.pageNo}/{opts.pageTotal} </p>
+            <a class="page-button" href="/home?page={opts.pageNo + 1}"><button class="btn">next</button></a>
+        </div>
+    <div>
+
+    </div>
+    <div id="footer">
+        <div class="col-3 no-padding logo">
+            
+            <div id="name">
+                <a href="mainpage.html"><p style="font-size: 24px; color: #42A5A4;">Mentorez</p></a>
+            </div>
+
+        </div>
+        <div style="display:flex; flex-direction: row; color: #42A5A4; font-size: 16px;">
+            <div>
+                <a href="mainpage.html"><p style="margin-left: 750px">Giới thiệu</p></a>
+                <a href="mainpage.html"><p style="margin-left: 780px">Hỗ trợ</p></a>
+                <a href="caclop.html"><p style="margin-left: 780px">Lớp học</p></a>
+            </div>
+            
+            <div>
+                <p style="margin-left: 20px">Liên hệ</p>
+                
+                <a href=""><p style="margin-left: 50px">Facebook</p></a>
+                <a href=""> <p style="margin-left: 50px">Instagram</p></a>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
